@@ -1,0 +1,397 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+/* header mobile*/
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    font-weight: 600;
+    padding: 10px;
+    /* box-shadow: 0px 1px 4px 0px; */
+}
+#btn-menu{
+    display: flex;
+    align-items: center;
+}
+#btn-user{
+    display: flex;
+    align-items: center;
+}
+.menu-img-logo{
+    width: 40px;
+    height: 40px;
+    padding: 5px;   
+}
+.p-header{
+    margin: auto;
+    font-size:large;
+    
+}
+.menu-img-usuario{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+#nav-bar{
+    display: none;
+}
+.menu-main{
+    margin:20px 50px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    box-shadow: 0px 0px 5px 0px #E4E4E4;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 1rem;
+}
+/* menu hamburguesa */
+#menu-mobile{
+    display: none;
+}
+#menu-mobile li{
+    list-style: none;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+#menu-mobile li a{
+    text-decoration: none;
+    line-height:30px;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+}
+/* Solo en esta pagina */
+#a-inicio{
+   border:1px solid #11BB9A;
+    color: #11BB9A;
+}
+#a-inicio:hover{
+    
+    transition: 400ms;
+ }
+/* Main mobile*/
+main{
+    display: flex;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-container-main{
+    background-image: url("https://www.bananasadventure.com/wp-content/uploads/2021/01/oasis_huacachina_blog_1.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+.main-info{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.h2-info{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.p-info{
+    text-align: center;
+    padding:5px;
+    margin-bottom: 20px;
+}
+    /* Seccion de nuestros servicios */
+.main-2{
+    width: 100%;
+    height: auto;
+    background-color: #F4F4F4 ;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0;  
+    flex-wrap:wrap;
+    align-items: center;
+    color: #606060 ;
+    margin-bottom: 50px;
+}
+.h2-main2{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.servicio{
+width: 400px;
+height: auto;
+margin: auto;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+
+}
+.servicio-img{
+    width:80px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.servicio-img:hover{
+    transform: rotate(360deg);
+    transition: 900ms;
+}
+.servicio-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h4-main2{
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.p-main2{
+    text-align: center;
+}
+#servicio-img1{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/5594/5594082.png");
+}
+#servicio-img2{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2301/2301826.png");
+}
+#servicio-img3{
+    background-image: url("https://cdn-icons-png.flaticon.com/512/7712/7712787.png");
+}
+
+/* cards */
+.card-container{
+    display: flex;
+    flex-direction:column; 
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height:auto;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px 0px #c8c8c8;
+}
+#img-cardpizza1{
+    background-image:url("https://blog.redbus.pe/wp-content/uploads/2019/03/51273688_404173763744927_8083375237419106069_n.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-self: center;
+}
+#img-cardpizza2{
+    background-image:url("https://turismoi.pe/uploads/photo/version2/photo_file/61062/optimized_optimized_1975_01.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-self: center;
+}
+#img-cardpizza3{
+    background-image:url("https://foxestravelaventure.com/wp-content/uploads/2019/02/a1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-self: center;
+}
+#img-cardpizza4{
+    background-image:url("http://paracassunset.com/wp-content/uploads/2016/06/noti_3_paracas_sunset_lima_peru.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-self: center;
+}
+#img-cardpizza5{
+    background-image:url("https://www.entornoturistico.com/wp-content/uploads/2020/05/Laguna-Huacachina.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-self: center;
+}
+#img-cardpizza6{
+    background-image:url("https://elcomercio.pe/resizer/es5CvlamRYI9sOJm14vsmHnMjgM=/1200x1200/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/YAPRCKKHSZC6LFHGDMG3WFQVEE.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-self: center;
+}
+#img-cardpizza7{
+    background-image:url("https://gestion.pe/resizer/iCgbJLdFjxjh6lwsvDhzmchHZK0=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/6AGRYCQOMBGFBJXRXUXALCVYKE.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-self: center;
+}
+.card-text-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    line-height: 20px;
+}
+.p-descripcion{
+    padding: 5px;
+    text-align: center;
+    height: 100px;
+}
+.p-precio{
+    margin-top: 20px;
+    padding:10px;
+}
+.card-button{
+    display: flex;
+    margin-top: 20px;
+    background-color: #ffffff;
+    resize: none;
+    border: none;
+    border: 1px solid #11BB9A;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #11BB9A;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.container-precio-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ancla-button{
+    text-decoration: none;
+}
+/* formulario */
+form{
+    width: 90%;
+    height: 600px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+h3{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+#img-container-form{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#form-descripcion{
+    height: auto;
+}
+#form-direccion{
+    outline: none;
+    border: 1px solid #e5e5e5;
+    margin: 30px 0;
+    width: 250px;
+}
+#cantidad{
+    width: 50px;
+    margin: 0 10px;
+    appearance: textfield;
+}
+.container-cantidad-form{
+    display: flex;
+}
+#form-precio{
+    margin: 30px 0;
+}
+#btn-pagar{
+    width: 100px;
+    border: none;
+    background-color: #11BB9A;
+    color: #ffffff;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #11BB9A ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn-footer{
+    margin: 0 20px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;  
+}
+/* medias query */
+
+@media screen and (min-width:800px){
+    /* etiquetas de header */
+    header{
+        padding: 0;
+        
+    }
+    .p-header{
+        display: none;
+    }
+    .menu-img-logo, .menu-img-usuario{
+        display: none;
+    }  
+    #nav-bar{
+        display: flex;
+    }
+    
+    
+    /* etiquetas de main  */   
+    main{
+        padding-top: 50px;
+    }
+    .img-container-main{
+        width:100%;
+        background-image: url("https://img.freepik.com/fotos-premium/oasis-medio-desierto-asi-es-pequena-laguna-llamada-huacachina-ica-peru_261041-885.jpg?w=2000");
+        /* background-color: rgb(70, 70, 70);
+        background-blend-mode:soft-light; */
+        height: 650px;
+    }
+    .p-main2, .h2-info, .p-info{
+        font-size: 1.1rem;
+    }    
+}
+    
